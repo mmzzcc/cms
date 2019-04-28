@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}/*去掉所有标签内外边距*/
+
+/*整个网页 背景  文字设置*/
+body{
+	background:#FFFFFF;
+	font-size:12px;
+	font-family:"宋体";
+	color:#087eac;
+}
+	
+ul,ol{ list-style:none;}/*去掉ul和ol项目符号*/
+
+a{ text-decoration:none; color:#087eac;}/*去掉超链接下划线  文字颜色灰色  鼠标经过变色*/
+a:hover{ color:#FF6600;}
+
+/*h1-h6字号统一，取消加粗*/
+h1, h2, h3 ,h4 ,h5, h6{ font-size:14px;  }
+
+img{ border:none;}/*去掉图片加超链接后的边框*/
+/*以上为网页公用样式*/
+
+/*顶部样式*/
+#header{ height:92px; background:url(../images/topbg.jpg) repeat-x;}
+#header  img{ float:left; margin-top:24px; margin-left:20px;}
+#header  h3{ float:left; font-size:14px; color:#FFFFFF; line-height:92px; margin-left:300px; }
+#header  a{ float:right;color:#FFFFFF;   text-decoration:none;}
+
+/*左部样式*/
+#left{
+	width:223px;
+	height:520px;
+	background:url(../images/left.jpg)  no-repeat;}
+#left  ul{ padding-top:48px; margin-left:100px;}
+
+#left  ul  li{
+	line-height:50px;
+	margin-bottom:12px;
+	font-size:14px;
+	font-weight:bold;
+	}
+	
+/*添加新闻页  right1*/	
+.txt{ width:348px; height:19px; border:1px #709dba  solid; padding-top:5px; padding-left:10px;}
+.sub,  .res{ background:url(../images/hou_08.jpg)  no-repeat; width:100px; height:33px; border:none; font-size:14px; font-weight:bold; color:#FFFFFF; margin-right:15px;}
+.res{ background:url(../images/mail_07.jpg)  no-repeat;}
+.textarea{ width:448px; height:184px;  border:1px #709dba  solid; }
+.s1{ width:200px; height:24px;}
+
+#main{ padding-left:50px; padding-top:50px;}
+#main  h2{ margin-left:200px; line-height:50px; font-size:20px;}
+
+/*新闻列表  right2*/	
+#main caption{ font-size:20px; font-weight:bold;line-height:50px;}
+#main   th{ font-size:14px;}
+.news_table{ border-collapse:collapse; text-align:center;}
+.news_table  td,  .news_table  th{border:1px #709dba  solid; padding:10px;}
+.news_table  td{color:#333;}

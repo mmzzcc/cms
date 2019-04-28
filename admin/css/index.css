@@ -1,0 +1,69 @@
+
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}/*去掉所有标签内外边距*/
+
+/*整个网页 背景  文字设置*/
+body{
+	background:#fff;
+	font-size:12px;
+	font-family:"宋体";
+	color:#666;
+	width:960px;
+	margin:0 auto;
+}
+	
+ul,ol{ list-style:none;}/*去掉ul和ol项目符号*/
+
+a{ text-decoration:none; color:#087eac;}/*去掉超链接下划线  文字颜色灰色  鼠标经过变色*/
+a:hover{ color:#FF6600;}
+
+/*h1-h6字号统一，取消加粗*/
+h1, h2, h3 ,h4 ,h5, h6{ font-size:14px;  }
+
+img{ border:none;}/*去掉图片加超链接后的边框*/
+
+.blank20{ height:20px; clear:both;}
+/*以上为网页公用样式*/
+#header{ width:960px; height:100px; margin:0 auto; }
+#header img{ float:left; margin:20px 0 0 20px;}
+#header  ul{ float:right; margin-top:40px;}
+#header  ul  li{ float:left;}
+#header  ul  li  a{ margin:0 15px;}
+
+#nav{ width:960px; height:38px; background:url(../images/navbg.jpg)  repeat-x; margin:0 auto;}
+#nav  ul  li{ float:left; width:94px; text-align:center; line-height:38px; background:url(../images/nav_line.gif)  no-repeat  right; font-size:14px; font-weight:bold;}
+#nav  ul  li  a{ color:#FFFFFF; display:block;}
+#nav  ul  li  a:hover{background:url(../images/jhgj.jpg)  no-repeat; }
+#nav   .active{background:url(../images/jhgj.jpg)  no-repeat;}
+
+#main1{ width:958px; margin:0 auto; border:1px #00CCFF solid;overflow:hidden;}
+#main1  ul  li{  float:left; margin-left:30px; text-align:center; display:inline; line-height:30px;}
+#main1  ul{ height:228px;}
+.title{ height:30px; border-bottom:1px #00CCFF dashed; line-height:30px; margin:0 20px 20px 20px;}
+.title h3{ float:left;  background:url(../images/h3.jpg)  no-repeat  10px center; padding-left:45px;}
+.title   a{ float:right;}
+
+.news{ width:958px; margin:0 auto; border:1px #00CCFF solid; overflow:hidden;}
+.news  ul{ float:left; width:420px; margin:0 25px;}
+.news  ul span{ float:right;}
+.news  ul  li{
+	height:25px;
+	line-height:25px;
+	background:url(../images/huida_30.jpg)  no-repeat left center;
+	padding-left:15px;}
+	
+#footer{ width:960px; height:70px; margin:0 auto; background:#d1ebfc;}
+#footer  p{
+	text-align:center; line-height:20px; padding-top:20px;}
+	
+/*index2  样式*/	
+.news   ul.width{ width:880px;}
+/*index3 样式   文章发布*/
+.article{width:958px; margin:0 auto; border:1px #00CCFF solid; overflow:hidden;}
+.article   h3{ text-align:center; line-height:40px; padding-top:20px; font-size:16px; color:#0099FF;}
+.article  p{ line-height:25px; margin:20px;}
+.author{ text-align:right; margin-right:20px;}
+
+
+

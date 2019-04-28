@@ -1,0 +1,31 @@
+
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}/*去掉所有标签内外边距*/
+
+/*整个网页 背景  文字设置*/
+body{
+	background:#96cbeb;
+	font-size:12px;
+	font-family:"宋体";
+	color:#087eac;
+}
+	
+ul,ol{ list-style:none;}/*去掉ul和ol项目符号*/
+
+a{ text-decoration:none; color:#087eac;}/*去掉超链接下划线  文字颜色灰色  鼠标经过变色*/
+a:hover{ color:#FF6600;}
+
+/*h1-h6字号统一，取消加粗*/
+h1, h2, h3 ,h4 ,h5, h6{ font-size:14px;  }
+
+img{ border:none;}/*去掉图片加超链接后的边框*/
+/*以上为网页公用样式*/
+
+#login{ background:url(../images/login.jpg) no-repeat; width:670px; height:420px; margin:0 auto; margin-top:100px;}
+#login  table{ margin-top:242px; margin-left:220px; height:149px; float:left;}
+.login_txt{ width:198px; height:19px; border:1px #6d9cb6  solid; padding-top:5px; padding-left:10px;}
+#login  table  a{ margin-left:20px;}
+
+.sub,  .res{ background:url(../images/hou_08.jpg)  no-repeat; width:100px; height:33px; border:none; font-size:14px; font-weight:bold; color:#FFFFFF; margin-right:15px;}
+.res{ background:url(../images/mail_07.jpg)  no-repeat;}
